@@ -1,12 +1,12 @@
 pipeline {
     agent any
     options {
-        durabilityHint ‘PERFORMANCE_OPTIMIZED’
+        durabilityHint 'PERFORMANCE_OPTIMIZED'
         }
     stages {
-        stage (‘Build’) {
+        stage ('Build') {
             steps {
-                sh ‘mvn clean package’
+                sh 'mvn clean package'
                 }
             }
         }
