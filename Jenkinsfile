@@ -1,3 +1,4 @@
+#!/bin/sh -l
 pipeline {
     agent any
     stages {
