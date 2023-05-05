@@ -32,10 +32,10 @@ spring:
         - classpath:/static/
         - classpath:/public/
 
-  redis:
-    host: 10.82.47.62
-    port: 6379
-    database: 0
+#  redis:
+#    host: 10.82.47.62
+#    port: 6379
+#    database: 0
 
   application:
     name: blog-blog

@@ -23,10 +23,10 @@ spring:
       auto-registration:
         enabled: true
 
-  redis:
-    host: 10.82.47.62
-    port: 6379
-    database: 0
+#  redis:
+#    host: 10.82.47.62
+#    port: 6379
+#    database: 0
 
   mail:
     host: smtp.163.com
