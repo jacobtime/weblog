@@ -23,7 +23,7 @@ spring:
             - Path=/**
       nacos:
         discovery:
-          server-addr: localhost:8848 # Nacos地址
+          server-addr: 10.82.47.62:8848 # Nacos地址
       service-registry:
         auto-registration:
           enabled: true
