@@ -33,7 +33,7 @@ spring:
         - classpath:/public/
 
   redis:
-    host: 127.0.0.1
+    host: 10.82.47.62
     port: 6379
     database: 0
 
