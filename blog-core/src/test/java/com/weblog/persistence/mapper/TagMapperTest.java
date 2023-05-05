@@ -84,8 +84,8 @@ class TagMapperTest {
                 new TagInfo(2, "C", null, "desc-C"),
                 new TagInfo(1, "java", null, "desc-java"),
                 new TagInfo(3, "C++", null, "desc-Cpp"),
-                new TagInfo(4, "Rust", null, "desc-Rust"),
                 new TagInfo(5, "Kotlin", null, "desc-kotlin"),
+                new TagInfo(4, "Rust", null, "desc-Rust"),
                 new TagInfo(6, "Haskell", null, "desc-haskell"),
         };
         assertArrayEquals(hotTags, tagMapper.getHotTags());

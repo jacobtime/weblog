@@ -19,7 +19,6 @@ spring:
     nacos:
       discovery:
         server-addr: 10.82.47.62:8848 # Nacos地址
-        sevice: blog-post
     service-registry:
       auto-registration:
         enabled: true
